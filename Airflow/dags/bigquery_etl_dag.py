@@ -1,4 +1,4 @@
-import pandas as pd
+import os
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
@@ -19,7 +19,7 @@ def load_and_transform_data(**kwargs):
     # Define your BigQuery dataset and table names
     project_id = "assignment-arben"
     dataset_id = "AssignmentDataset"
-    credentials_path = "service-account.json"
+    credentials_path = "/opt/airflow/dags/utils/service-account.json"
 
     users_table_id = f"{project_id}.{dataset_id}.Users"
     transactions_table_id = f"{project_id}.{dataset_id}.Transactions"
