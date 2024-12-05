@@ -24,3 +24,5 @@
 ### Navigate to localhost:8080 in your browser.
 
 `Trigger the DAG named bigquery_etl_dag to run the ETL process.`
+
+## 5. The SQL query exists in the Airflow/SQL folder.
