@@ -2001,3 +2001,10 @@
 [2024-12-05T10:52:00.358+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:52:00.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-05T10:52:00.386+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:52:00.386+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2024-12-05 10:51:00+00:00, run_after=2024-12-05 10:52:00+00:00
 [2024-12-05T10:52:00.408+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.101 seconds
+[2024-12-05T10:52:30.599+0000] {processor.py:186} INFO - Started process (PID=7516) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-12-05T10:52:30.602+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2024-12-05T10:52:30.608+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:52:30.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-12-05T10:52:30.623+0000] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-12-05T10:52:30.645+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:52:30.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T10:52:30.670+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:52:30.670+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2024-12-05 10:51:00+00:00, run_after=2024-12-05 10:52:00+00:00
+[2024-12-05T10:52:30.725+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.138 seconds
