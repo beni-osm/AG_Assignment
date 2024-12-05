@@ -1,0 +1,4 @@
+pandas 
+Faker
+google-cloud-bigquery
+google-auth

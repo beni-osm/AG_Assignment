@@ -1,3 +1,0 @@
-pandas 
-Faker
-google-cloud-bigquery

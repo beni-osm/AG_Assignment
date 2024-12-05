@@ -1,2 +1,3 @@
 assignment_env/
-Secrets/
+Airflow/dags/utils/service-account.json
+Airflow/dags/logs/
