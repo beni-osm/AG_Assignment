@@ -20,5 +20,5 @@ SELECT
 FROM `assignment-arben.AssignmentDataset.Users` u
 LEFT JOIN LatestPreferences p
 ON u.id = p.user_id
-WHERE p.rn = 1 OR p.rn IS NULL
+WHERE p.rn = 1
 ORDER BY u.id;
