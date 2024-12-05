@@ -2048,3 +2048,15 @@ SyntaxError: '(' was never closed
 [2024-12-05T10:50:56.075+0000] {processor.py:925} INFO - DAG(s) 'bigquery_etl_dag' retrieved from /opt/airflow/dags/bigquery_etl_dag.py
 [2024-12-05T10:50:56.098+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:50:56.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-05T10:50:56.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigquery_etl_dag.py took 0.549 seconds
+[2024-12-05T10:51:26.371+0000] {processor.py:186} INFO - Started process (PID=7386) to work on /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:26.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigquery_etl_dag.py for tasks to queue
+[2024-12-05T10:51:26.376+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:51:26.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:26.801+0000] {processor.py:925} INFO - DAG(s) 'bigquery_etl_dag' retrieved from /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:26.825+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:51:26.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T10:51:26.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigquery_etl_dag.py took 0.578 seconds
+[2024-12-05T10:51:57.483+0000] {processor.py:186} INFO - Started process (PID=7450) to work on /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:57.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigquery_etl_dag.py for tasks to queue
+[2024-12-05T10:51:57.488+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:51:57.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:57.901+0000] {processor.py:925} INFO - DAG(s) 'bigquery_etl_dag' retrieved from /opt/airflow/dags/bigquery_etl_dag.py
+[2024-12-05T10:51:57.927+0000] {logging_mixin.py:190} INFO - [2024-12-05T10:51:57.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T10:51:58.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigquery_etl_dag.py took 0.586 seconds
